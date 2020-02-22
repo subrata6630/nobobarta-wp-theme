@@ -1,0 +1,61 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 970px) and (max-width: 1170px) { 
+  
+    
+}
+/* Tablet Layout: 725px. */
+@media only screen and (min-width: 725px) and (max-width: 970px) { 
+ .footer {
+	border-bottom:2px solid #F0F0F0;
+	padding-bottom:10px;
+}  
+.editorial_01{
+	text-align:center;
+}
+.editorial_02{
+	text-align:center;
+}
+.date{
+	text-align:center;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .footer {
+	padding-bottom:10px;
+}
+.footer_logo{
+	border-bottom:1px solid #F0F0F0;
+	padding-bottom:5px
+}  
+.editorial_01{
+	text-align:center !important;
+	border-bottom:1px solid #F0F0F0;
+	padding-bottom:5px;
+	padding-top:5px
+}
+.editorial_02{
+	padding-top:5px;
+	text-align:center !important;
+}
+.date{
+	text-align:center !important;
+}
+.root_01{
+	text-align:center !important;
+	border-bottom:1px solid #F0F0F0;
+	padding-bottom:5px
+}
+.root_02{
+	text-align:center !important;
+	padding-top:5px
+}
+.social{
+	padding-top:5px;
+	text-align:center !important;
+	margin:auto !important;
+		padding-right:50px;
+}
+  
+}
